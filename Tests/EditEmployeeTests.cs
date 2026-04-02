@@ -93,7 +93,7 @@ namespace OrangeHRM.Tests.Tests
             firstName.Clear();
             test.Info("Se elimina el nombre del empleado");
 
-            // Forzar validación con Tab antes de guardar
+            
             firstName.SendKeys(Keys.Tab);
             Thread.Sleep(500);
 
@@ -103,7 +103,6 @@ namespace OrangeHRM.Tests.Tests
 
             TakeScreenshot("EditarEmpleado_Negativo");
 
-            // OrangeHRM puede mostrar el error de distintas formas
             var url = driver.Url;
             var errors = driver.FindElements(
                 By.CssSelector(".oxd-input-field-error-message"));
