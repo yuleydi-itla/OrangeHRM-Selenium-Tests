@@ -1,0 +1,1535 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>OrangeHRM Test Report</title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  dark">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary">Reporte de Pruebas Automatizadas</span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">2/4/2026 11:00:43 p. m.</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+    <li class="nav-item dropdown" onclick="toggleView('category-view')">
+     <a id="nav-category" class="dropdown-toggle" href="#">
+      <span class="ico"><i class="fa fa-tag"></i></span>
+     </a>
+    </li>
+    <li class="nav-item dropdown" onclick="toggleView('author-view')">
+     <a id="nav-author" class="dropdown-toggle" href="#">
+      <span class="ico"><i class="fa fa-user"></i></span>
+     </a>
+    </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+          <ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" href="#">Yuleydi De Los Santos</a>           </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+          <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" href="#">HU-01 Login</a>  <a class="dropdown-item" href="#">HU-02 Crear Empleado</a>           </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author="Yuleydi De Los Santos "
+          tag="HU-02 Crear Empleado "
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-02 - Crear empleado (válido)</p>
+            <p class="text-sm">
+              <span>11:00:47 p. m.</span> / <span>14229.97 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-02 - Crear empleado (válido)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:00:47 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:01:02 p. m.</span>
+                  <span class='badge badge-default'>14229.97 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>   <span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> HU-02 Crear Empleado</span> </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\CrearEmpleado_CaminoFeliz.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\CrearEmpleado_CaminoFeliz.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:00:47</td>
+        <td>
+Inicio de prueba: Crear empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:00:53</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:00:54</td>
+        <td>
+Accediendo al formulario de creación de empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:00:56</td>
+        <td>
+Formulario enviado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:01</td>
+        <td>
+Redirección a detalles personales confirmada        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:01:02</td>
+        <td>
+Empleado creado correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author="Yuleydi De Los Santos "
+          tag="HU-02 Crear Empleado "
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-02 - Crear empleado(nombre muy largo)</p>
+            <p class="text-sm">
+              <span>11:01:06 p. m.</span> / <span>16039.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-02 - Crear empleado(nombre muy largo)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:01:06 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:01:22 p. m.</span>
+                  <span class='badge badge-default'>16039.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>   <span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> HU-02 Crear Empleado</span> </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU02_CrearEmpleado_Limite.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU02_CrearEmpleado_Limite.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:06</td>
+        <td>
+Inicio de prueba de límite de caracteres        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:13</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:14</td>
+        <td>
+Accediendo al formulario de creación        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:19</td>
+        <td>
+Se ingresa un nombre con 200 caracteres        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:20</td>
+        <td>
+Intentando guardar con datos fuera del límite        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:01:22</td>
+        <td>
+Límite de caracteres validado correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author="Yuleydi De Los Santos "
+          tag="HU-02 Crear Empleado "
+          device="">
+          <div class="test-detail">
+            <p class="name">HU- 02 - Crear empleado(sin nombre)</p>
+            <p class="text-sm">
+              <span>11:01:25 p. m.</span> / <span>11909.8 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU- 02 - Crear empleado(sin nombre)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:01:25 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:01:37 p. m.</span>
+                  <span class='badge badge-default'>11909.8 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>   <span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> HU-02 Crear Empleado</span> </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU02_CrearEmpleado_Error.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU02_CrearEmpleado_Error.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:25</td>
+        <td>
+Inicio de prueba negativa: creación sin nombre        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:32</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:33</td>
+        <td>
+Accediendo al formulario de creación        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:01:36</td>
+        <td>
+Intentando guardar sin datos obligatorios        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:01:37</td>
+        <td>
+Validación mostrada correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-05 — Eliminar empleado (cancelado)</p>
+            <p class="text-sm">
+              <span>11:01:55 p. m.</span> / <span>13014.47 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-05 — Eliminar empleado (cancelado)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:01:55 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:02:08 p. m.</span>
+                  <span class='badge badge-default'>13014.47 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_Negativo.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_Negativo.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:02:08</td>
+        <td>
+Cancelación correcta — registro NO eliminado        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-05 — Eliminar empleado (confirmado)</p>
+            <p class="text-sm">
+              <span>11:02:12 p. m.</span> / <span>13263.53 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-05 — Eliminar empleado (confirmado)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:02:12 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:02:26 p. m.</span>
+                  <span class='badge badge-default'>13263.53 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_CaminoFeliz.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_CaminoFeliz.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:02:26</td>
+        <td>
+Empleado eliminado correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-05 — Eliminar empleado (selección masiva)</p>
+            <p class="text-sm">
+              <span>11:02:29 p. m.</span> / <span>33497.03 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-05 — Eliminar empleado (selección masiva)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:02:29 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:03:03 p. m.</span>
+                  <span class='badge badge-default'>33497.03 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_Limites.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EliminarEmpleado_Limites.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:03:03</td>
+        <td>
+No apareció botón masivo (comportamiento permitido)        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-04 - Editar empleado (sin nombre)</p>
+            <p class="text-sm">
+              <span>11:03:07 p. m.</span> / <span>39538.72 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-04 - Editar empleado (sin nombre)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:03:07 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:03:46 p. m.</span>
+                  <span class='badge badge-default'>39538.72 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_Negativo.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_Negativo.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:07</td>
+        <td>
+Inicio de prueba negativa: borrar nombre del empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:14</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:22</td>
+        <td>
+Accediendo al formulario de edición        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:23</td>
+        <td>
+Se elimina el nombre del empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:23</td>
+        <td>
+Se intenta guardar sin nombre        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:03:46</td>
+        <td>
+Validación de nombre vacío manejada correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-04 - Editar empleado (válido)</p>
+            <p class="text-sm">
+              <span>11:03:57 p. m.</span> / <span>49063.79 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-04 - Editar empleado (válido)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:03:57 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:04:46 p. m.</span>
+                  <span class='badge badge-default'>49063.79 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_CaminoFeliz.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_CaminoFeliz.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:03:57</td>
+        <td>
+Inicio de prueba: edición de empleado con datos válidos        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:04:05</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:04:14</td>
+        <td>
+Accediendo al formulario de edición del empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:04:18</td>
+        <td>
+Se modifica el nombre del empleado        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:04:18</td>
+        <td>
+Se guardan los cambios        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:04:46</td>
+        <td>
+Empleado editado correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-04 - Editar empleado (un cácter)</p>
+            <p class="text-sm">
+              <span>11:04:57 p. m.</span> / <span>16069.36 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-04 - Editar empleado (un cácter)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:04:57 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:05:13 p. m.</span>
+                  <span class='badge badge-default'>16069.36 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_Limites.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\EditarEmpleado_Limites.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:04:57</td>
+        <td>
+Inicio de prueba de límite        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:03</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:11</td>
+        <td>
+Accediendo al formulario de edición        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:11</td>
+        <td>
+Se ingresa un nombre de un solo carácter        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:11</td>
+        <td>
+Se guardan los cambios con dato mínimo        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:05:13</td>
+        <td>
+Límite mínimo de nombre manejado correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-01 — Login (campos vacíos)</p>
+            <p class="text-sm">
+              <span>11:05:17 p. m.</span> / <span>5148.64 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-01 — Login (campos vacíos)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:05:17 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:05:22 p. m.</span>
+                  <span class='badge badge-default'>5148.64 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_Limites.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_Limites.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:05:22</td>
+        <td>
+Prueba de límites exitosa — validaciones mostradas correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-01 — Login (inválido)</p>
+            <p class="text-sm">
+              <span>11:05:26 p. m.</span> / <span>6245.96 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-01 — Login (inválido)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:05:26 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:05:32 p. m.</span>
+                  <span class='badge badge-default'>6245.96 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_Negativo.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_Negativo.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:05:32</td>
+        <td>
+Prueba negativa exitosa — mostró mensaje de error correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author="Yuleydi De Los Santos "
+          tag="HU-01 Login "
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-01 - Login (válido)</p>
+            <p class="text-sm">
+              <span>11:05:36 p. m.</span> / <span>7590.57 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-01 - Login (válido)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:05:36 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:05:43 p. m.</span>
+                  <span class='badge badge-default'>7590.57 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>   <span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> HU-01 Login</span> </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_CaminoFeliz.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\Login_CaminoFeliz.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:36</td>
+        <td>
+Se abre la página de login        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:40</td>
+        <td>
+Se ingresa usuario        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:40</td>
+        <td>
+Se ingresa contraseña        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:42</td>
+        <td>
+Se hace clic en login        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:05:43</td>
+        <td>
+Login exitoso — redirigió al dashboard correctamente        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-03 | Buscar empleado existente</p>
+            <p class="text-sm">
+              <span>11:05:49 p. m.</span> / <span>9153.69 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-03 | Buscar empleado existente</h5>
+                  <span class='badge badge-success'>2/4/2026 11:05:49 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:05:58 p. m.</span>
+                  <span class='badge badge-default'>9153.69 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_OK.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_OK.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:49</td>
+        <td>
+Inicio de prueba: búsqueda de empleado existente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:55</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:56</td>
+        <td>
+Accediendo al módulo de búsqueda de empleados        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:57</td>
+        <td>
+Se ingresa nombre del empleado a buscar        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:05:57</td>
+        <td>
+Se ejecuta la búsqueda        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:05:58</td>
+        <td>
+Búsqueda exitosa — 50 resultado(s) encontrado(s)        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-03 | Buscar empleado inexistente</p>
+            <p class="text-sm">
+              <span>11:06:04 p. m.</span> / <span>16385.33 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-03 | Buscar empleado inexistente</h5>
+                  <span class='badge badge-success'>2/4/2026 11:06:04 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:06:20 p. m.</span>
+                  <span class='badge badge-default'>16385.33 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_Error.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_Error.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:04</td>
+        <td>
+Inicio de prueba negativa: búsqueda de empleado inexistente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:10</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:11</td>
+        <td>
+Accediendo al módulo de búsqueda        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:15</td>
+        <td>
+Se ejecuta la búsqueda con datos inválidos        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:06:20</td>
+        <td>
+Búsqueda negativa correcta — ID inexistente no encontrado        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author="Yuleydi De Los Santos "
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HU-03 | Buscar empleado (límite)</p>
+            <p class="text-sm">
+              <span>11:06:25 p. m.</span> / <span>12095.98 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">HU-03 | Buscar empleado (límite)</h5>
+                  <span class='badge badge-success'>2/4/2026 11:06:25 p. m.</span>
+                  <span class='badge badge-danger'>2/4/2026 11:06:37 p. m.</span>
+                  <span class='badge badge-default'>12095.98 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+ <div class="m-t-15"> <span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Yuleydi De Los Santos</span>  </div>               </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_Limite.png' src="C:\Users\YULEIDY\Downloads\prácticas de PW\OrangeHRM.Tests\bin\Debug\net8.0\Screenshots\HU03_Busqueda_Limite.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:25</td>
+        <td>
+Inicio de prueba de límite        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:32</td>
+        <td>
+Login realizado correctamente        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:33</td>
+        <td>
+Accediendo al módulo de búsqueda        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:34</td>
+        <td>
+Se ingresa un solo carácter para búsqueda        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>abr 02, 2026 23:06:34</td>
+        <td>
+Se ejecuta la búsqueda con dato mínimo        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>abr 02, 2026 23:06:37</td>
+        <td>
+Límite de un carácter manejado correctamente — 50 resultado(s)        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+
+<div class="test-wrapper row view category-view attributes-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+      <ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item">
+          <div class="test-detail">
+            <span class="meta">
+ <span class='badge log pass-bg'>1</span>             </span>
+            <p class="name">HU-01 Login</p>
+            <p class="duration text-sm">1 tests</p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="info">
+              <h4>HU-01 Login</h4>
+ <span status="pass" class='badge log pass-bg'>1 passed</span>             </div>
+            <table class='table table-sm mt-4'>
+              <thead>
+                <tr>
+                  <th class="status-col">Status</th>
+                  <th class="timestamp-col">Timestamp</th>
+                  <th>TestName</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:05:36 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='12' id='12'>HU-01 - Login (válido)</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li class="test-item">
+          <div class="test-detail">
+            <span class="meta">
+ <span class='badge log pass-bg'>3</span>             </span>
+            <p class="name">HU-02 Crear Empleado</p>
+            <p class="duration text-sm">3 tests</p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="info">
+              <h4>HU-02 Crear Empleado</h4>
+ <span status="pass" class='badge log pass-bg'>3 passed</span>             </div>
+            <table class='table table-sm mt-4'>
+              <thead>
+                <tr>
+                  <th class="status-col">Status</th>
+                  <th class="timestamp-col">Timestamp</th>
+                  <th>TestName</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:00:47 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='1' id='1'>HU-02 - Crear empleado (válido)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:01:06 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='2' id='2'>HU-02 - Crear empleado(nombre muy largo)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:01:25 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='3' id='3'>HU- 02 - Crear empleado(sin nombre)</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-detail">
+      <div class="detail-body"></div>
+    </div>
+  </div>
+</div>
+
+<div class="test-wrapper row view author-view attributes-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+      <ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item">
+          <div class="test-detail">
+            <span class="meta">
+ <span class='badge log pass-bg'>10</span>             </span>
+            <p class="name">Yuleydi De Los Santos</p>
+            <p class="duration text-sm">10 tests</p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="info">
+              <h4>Yuleydi De Los Santos</h4>
+ <span status="pass" class='badge log pass-bg'>10 passed</span>             </div>
+            <table class='table table-sm mt-4'>
+              <thead>
+                <tr>
+                  <th class="status-col">Status</th>
+                  <th class="timestamp-col">Timestamp</th>
+                  <th>TestName</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:00:47 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='1' id='1'>HU-02 - Crear empleado (válido)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:01:06 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='2' id='2'>HU-02 - Crear empleado(nombre muy largo)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:01:25 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='3' id='3'>HU- 02 - Crear empleado(sin nombre)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:03:07 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='7' id='7'>HU-04 - Editar empleado (sin nombre)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:03:57 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='8' id='8'>HU-04 - Editar empleado (válido)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:04:57 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='9' id='9'>HU-04 - Editar empleado (un cácter)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:05:36 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='12' id='12'>HU-01 - Login (válido)</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:05:49 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='13' id='13'>HU-03 | Buscar empleado existente</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:06:04 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='14' id='14'>HU-03 | Buscar empleado inexistente</a>
+                  </td>
+                </tr>
+                <tr class="tag-test-status" status="pass">
+                  <td><span class="badge log pass-bg">Pass</span></td>
+                  <td>11:06:25 p. m.</td>
+                  <td>
+                    <a href="#" class="linked" test-id='15' id='15'>HU-03 | Buscar empleado (límite)</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-detail">
+      <div class="detail-body"></div>
+    </div>
+  </div>
+</div>
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>2/4/2026 11:00:43 p. m.</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>2/4/2026 11:06:37 p. m.</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>15</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>15</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>15</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>47</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "HU-02 - Crear empleado (válido)":14229.9686,"HU-02 - Crear empleado(nombre muy largo)":16039.4363,"HU- 02 - Crear empleado(sin nombre)":11909.7974,"HU-05 — Eliminar empleado (cancelado)":13014.4706,"HU-05 — Eliminar empleado (confirmado)":13263.5256,"HU-05 — Eliminar empleado (selección masiva)":33497.0349,"HU-04 - Editar empleado (sin nombre)":39538.7182,"HU-04 - Editar empleado (válido)":49063.7856,"HU-04 - Editar empleado (un cácter)":16069.361,"HU-01 — Login (campos vacíos)":5148.6382,"HU-01 — Login (inválido)":6245.9556,"HU-01 - Login (válido)":7590.5703,"HU-03 | Buscar empleado existente":9153.6915,"HU-03 | Buscar empleado inexistente":16385.3332,"HU-03 | Buscar empleado (límite)":12095.9775 };
+  </script>
+  <div class="row">
+    <div class="col-md-4 author-container">
+      <div class="card">
+        <div class="card-header"><p>Author</p></div>
+        <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+          <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Yuleydi De Los Santos</td>
+              <td>10</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+    <div class="col-md-4 category-container">
+      <div class="card">
+        <div class="card-header"><p>Tags</p></div>
+        <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+          <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+            <tr>
+              <td>HU-01 Login</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>HU-02 Crear Empleado</td>
+              <td>3</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+      <div class="col-md-4 sysenv-container">
+      <div class="card">
+        <div class="card-header"><p>System/Environment</p></div>
+        <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+          <thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Aplicación</td>
+              <td>OrangeHRM Demo</td>
+            </tr>
+            <tr>
+              <td>Módulo</td>
+              <td>Gestión de Empleados (PIM)</td>
+            </tr>
+            <tr>
+              <td>Navegador</td>
+              <td>Microsoft Edge</td>
+            </tr>
+            <tr>
+              <td>Framework</td>
+              <td>Selenium + NUnit</td>
+            </tr>
+            <tr>
+              <td>Tipo de pruebas</td>
+              <td>Automatizadas UI</td>
+            </tr>
+            <tr>
+              <td>Tester</td>
+              <td>Yuleydi De Los Santos</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 15,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 62,
+
+passParent:15,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:15,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:47,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
